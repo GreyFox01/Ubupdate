@@ -6,7 +6,7 @@ sudo apt -y upgrade
 echo "Updating Snap..."
 sudo snap refresh
 echo "Updating Flatpak..."
-sudo flatpak update
+flatpak update
 echo "Checking Firmware..."
 echo "BIOS Version and Release Date:"
 sudo dmidecode -s bios-version
